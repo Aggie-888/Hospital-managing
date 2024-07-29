@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="502.0" prefWidth="891.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.hospital_management_system.HelloController">
+
+      <Label layoutX="526.0" layoutY="36.0" />
+      <Label layoutX="432.0" layoutY="53.0" text="HOSPITAL MANAGEMENT SYSTEM" />
+      <Label layoutX="432.0" layoutY="111.0" text="Username" />
+      <Label layoutX="438.0" layoutY="179.0" text="Password" />
+      <TextField layoutX="550.0" layoutY="107.0" promptText="username" />
+      <PasswordField layoutX="550.0" layoutY="175.0" promptText="password" />
+      <Button layoutX="550.0" layoutY="239.0" mnemonicParsing="false" text="Cancel" />
+      <Button layoutX="647.0" layoutY="239.0" mnemonicParsing="false" text="Login" />
+   <ImageView fitHeight="800.0" fitWidth="1000.0" layoutX="118.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="50.0" AnchorPane.leftAnchor="50.0" AnchorPane.rightAnchor="50.0" AnchorPane.topAnchor="50.0">
+      <image>
+         <Image url="@../../../image/sup.jpg" />
+      </image>
+   </ImageView>
+
+
+</AnchorPane>
